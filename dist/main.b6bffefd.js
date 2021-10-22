@@ -109,7 +109,7 @@ var $lastLi = $siteList.find('.lastLi');
 var x = localStorage.getItem('x'); // localStorage 里储存的只能是字符串
 var xObject = JSON.parse(x); // 将字符串转化为对象
 
-var hashMap = xObject || [{ logo: 'M', url: 'https://developer.mozilla.org/' }, { logo: 'J', url: 'https://juejin.cn/' }, { logo: 'G', url: 'https://github.com/' }];
+var hashMap = xObject || [{ logo: 'M', url: 'https://developer.mozilla.org/' }, { logo: 'J', url: 'https://juejin.cn/' }, { logo: 'G', url: 'https://github.com/' }, { logo: 'X', url: 'https://xiedaimala.com/' }];
 
 var simplifyUrl = function simplifyUrl(url) {
     return url.replace('https://', '').replace('http://', '').replace('www.', '').replace(/\/.*/, ''); // 删除 / 开头的内容
@@ -161,4 +161,4 @@ $(document).on('keypress', function (e) {
     }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.56e4e7ce.map
+//# sourceMappingURL=main.b6bffefd.map
